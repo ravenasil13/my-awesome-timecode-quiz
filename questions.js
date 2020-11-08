@@ -19,7 +19,7 @@ var questions = [
 var questions = [
     {
         question: "How does a FOR loop start?";
-        choices: ["for (i <= 5; i++)", "for i = 1 to 5", "for(i=0; i <=5)", "for (i = 0; i <=5") , "for (i = 0; i < = 5)"];
+        choices: ["for (i <= 5; i++)", "for (i = 1 to 5)", "for(i=0; i <=5)", "for (i = 0; i <=5)" , "for (i = 0; i < = 5)"];
         answer: "for (i = 0; < 5; i++)";
     }
 ]
@@ -48,8 +48,8 @@ var timer;
 
 //need function and button to start quiz
 function begin(){
-    timeExtra = 60;
-    document.getElementById(timeExtra).innerHTML = timeExtra;
+    timeRemaining = 60;
+    document.getElementById(timeRemaining).innerHTML = timeExtra;
 }
 //timer needs to start when 'Begin' button clicked
 //use onclick event for quiz to start?
